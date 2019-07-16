@@ -1,0 +1,32 @@
+
+ff: parsing domain file
+domain 'SMART-GARDEN' defined
+ ... done.
+ff: parsing problem file
+problem 'WATER-GARDEN' defined
+ ... done.
+
+
+no metric specified. plan length assumed.
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is EHC, if that fails then  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+Cueing down from goal distance:    1 into depth [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: WATERING MOTOR1 PLANT2
+     
+
+time spent:    0.00 seconds instantiating 24 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 22 facts and 18 actions
+               0.00 seconds creating final representation with 20 relevant facts, 0 relevant fluents
+               0.00 seconds computing LNF
+               0.01 seconds building connectivity graph
+               0.00 seconds searching, evaluating 2 states, to a max depth of 1
+               0.01 seconds total time
+

@@ -8,3 +8,5 @@ water.py, lamp.py- handles the output of the planner turn on/off the plugwise co
 publish.py- publish to cloudmqtt broker
 subscribe.py-subscribe to cloudmqtt broker
 storeindb.py-store the subscribed data in the AWS RDS for monitoring and planning purpose.
+cnn.py- This script is used for training a CNN-based Machine Learning Model and the model can be saved as .h5 file
+PlantIdentification.py - This script is used for predicting the plant name and health status using the deployed ML model.

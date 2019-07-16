@@ -35,7 +35,7 @@ while True:
  #Check if network is ready or not
     
     while network.state!= network.STATE_READY:
-        sleep(1)
+        sleep(5)
         
  #Collecting Temperature, Relative Humidity and Luminance data.
  

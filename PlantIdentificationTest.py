@@ -26,7 +26,7 @@ graph = tf.get_default_graph()
 
 '''
 Method Name:Identify
-Functionality: This function loads the keras model for plant name and health detection and fits the last captured
+Functionality: This function responsible for loading the keras model for plant name and health detection and fits the last captured
                photo with the model for classification
 Returns: Plant Name
 '''

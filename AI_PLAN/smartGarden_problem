@@ -1,0 +1,17 @@
+
+      (define (problem water-garden)
+    	  (:domain smart-garden)
+    	  (:objects plant1 plant2 motor1 motor2 )
+    	  (:init (plant plant1)
+    			 (plant plant2)
+    			 (motor motor1)
+    			 (motor motor2)
+    			 (free motor1)
+    			 (free motor2)
+    			 
+    	         (sufficientmoisturelevel plant1)
+        		  )
+    	  (:goal (and (sufficientmoisturelevel plant1) 
+    					   (sufficientmoisturelevel plant2)   
+    					   )))
+      

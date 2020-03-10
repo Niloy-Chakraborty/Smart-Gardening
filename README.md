@@ -1,5 +1,15 @@
 # Smart-Gardening
-In this project a gardening system has been automated using IoT in the Raspberry Pi platform.
+## A Smart Solution to your Gardening Problems
+
+
+The technology which could make our life prosper within the walls could also help to create our own corner of nature nourish. In
+this project, a smart gardening system has been proposed that utilizes the concept of the Internet of Things (IoT). The main objective of this project is to optimize water usage during gardening and remotely maintain the garden. In this system, important information related to the plant, like, temperature, relative humidity, and the soil moisture is continuously recorded in a cloud-based Database. Artificial Intelligence (AI) based planning is done in regular intervals for watering the plants and
+provide adequate lighting in the garden area for aesthetics. The real-time sensor status can be directly monitored and controlled by the end-users of the garden through his or her smartphone using Telegram application. A plant recognition model has been introduced in this system, where a Convolutional Neural Network (CNN) based deep-learning algorithm classifes the plant categories. Moreover, this model also informs the end user about the health of the plant.
+
+### Paper:
+Please see the detailed report from [here](https://www.researchgate.net/publication/339412317_Smart_Gardening_A_solution_to_your_gardening_issues?_sg%5B0%5D=U_O-f1a3XHIaBI4_ER6dQGMTr_cj1cCMjCd1nszVCSeVTU9Igqs_LXNtbB3TDwtyX22HLEC1iXF3sA.ROHM8E4iQN2fdYqhWW9fkJAmQCORy_93BUaQDxEIxEF8O7CwbJcOcsemQ_TXd1-R-SKLEODkfLB3GCO7LK-t4Q&_sg%5B1%5D=kcJR-K5YcFrhiJzWfAnEB1FskrGex0z4zEKCbNQa3hAXdsC7PLdMyqSfdqbLgqN2vhV7tuBuAC4zXjf-bb0gBXKgc66ju9y8zdVAoLTlj4JFbRH-QGc) and cite the work for future use.
+
+------------------------------------------------
 telegramapp.py, iotcontrol.py - These files controls the telegram bot.
 lampplanner.py, waterplanner.py- automates the optimum usage of water and light(generates problem files and execute the planner).
 smartGarden_domain.pddl, smartGarden_problem - The domain and sample problem file to automate watering of multiple plants.

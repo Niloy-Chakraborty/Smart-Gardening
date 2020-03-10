@@ -19,15 +19,16 @@ Please see the detailed report from [here](https://www.researchgate.net/publicat
 ### Guidelines:
 1. [**AI PLAN**](https://github.com/Niloy-Chakraborty/Smart-Gardening/tree/master/AI_PLAN) contains all the Domain and Problem files for the AI Planning.  
 
-  **smartGarden_domain.pddl, smartGarden_problem** - The domain and sample problem file to automate watering of multiple plants.
+**smartGarden_domain.pddl, smartGarden_problem** - The domain and sample problem file to automate watering of multiple plants.
 
-  **smartGardenlighting_domain.pddl, smartGardenlighting_problem** - The domain and sample problem file to turn on/off lamp in the garden area based on present luminance level.
+**smartGardenlighting_domain.pddl, smartGardenlighting_problem** - The domain and sample problem file to turn on/off lamp in the garden area based on present luminance level.
 
+-------------------------
 2. [**CONTROLLER**](https://github.com/Niloy-Chakraborty/Smart-Gardening/tree/master/CONTROLLER) contains all the .py files for controlling the Telegram bot and automating the AI planning problems. 
 
-  **telegramapp.py, iotcontrol.py** - These files controls the telegram bot.
+**telegramapp.py, iotcontrol.py** - These files controls the telegram bot.
 
-  **lampplanner.py, waterplanner.py**- automates the optimum usage of water and light(generates problem files and execute the planner).
+**lampplanner.py, waterplanner.py**- automates the optimum usage of water and light(generates problem files and execute the planner).
 
 **water.py, lamp.py**- handles the output of the planner turn on/off the plugwise connected to motor/lamp
 
@@ -37,6 +38,7 @@ Please see the detailed report from [here](https://www.researchgate.net/publicat
 
 **storeindb.py**-store the subscribed data in the AWS RDS for monitoring and planning purpose.
 
+-------------------------
 3. [**DL MODEL**](https://github.com/Niloy-Chakraborty/Smart-Gardening/tree/master/DL_MODEL) contains all the files related to training the model for plant identification and health info.
 
 **cnn.py**- This script is used for training a CNN-based Machine Learning Model and the model can be saved as .h5 file

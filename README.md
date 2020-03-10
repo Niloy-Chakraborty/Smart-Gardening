@@ -11,6 +11,10 @@ provide adequate lighting in the garden area for aesthetics.
 The real-time sensor status can be directly monitored and controlled by the end-users of the garden through his or her smartphone using Telegram application. A plant recognition model has been introduced in this system, where a Convolutional Neural Network (CNN) based deep-learning algorithm classifes the plant categories. Moreover, this model also informs the end user about the health of the plant.
 
 ------------------------------------------------
+### Architecture of the Smart-Gardening System:
+![Architecture](https://github.com/Niloy-Chakraborty/Smart-Gardening/blob/master/Architecture.png)
+
+------------------------------------------------
 
 ### Paper:
 Please see the detailed report from [here](https://www.researchgate.net/publication/339412317_Smart_Gardening_A_solution_to_your_gardening_issues?_sg%5B0%5D=U_O-f1a3XHIaBI4_ER6dQGMTr_cj1cCMjCd1nszVCSeVTU9Igqs_LXNtbB3TDwtyX22HLEC1iXF3sA.ROHM8E4iQN2fdYqhWW9fkJAmQCORy_93BUaQDxEIxEF8O7CwbJcOcsemQ_TXd1-R-SKLEODkfLB3GCO7LK-t4Q&_sg%5B1%5D=kcJR-K5YcFrhiJzWfAnEB1FskrGex0z4zEKCbNQa3hAXdsC7PLdMyqSfdqbLgqN2vhV7tuBuAC4zXjf-bb0gBXKgc66ju9y8zdVAoLTlj4JFbRH-QGc) and cite the work for future use.
@@ -45,4 +49,9 @@ Please see the detailed report from [here](https://www.researchgate.net/publicat
 PlantIdentification.py - This script is used for predicting the plant name and health status using the deployed ML model. The model can be downloaded from [here](https://drive.google.com/open?id=1stVThnVNt8yhOze6h0iQPJXKuZLaV2cC)
 
 
-PLEASE NOTE: Install all the necessary packages mentioned in the respective script. 
+#### PLEASE NOTE:
+
+Install all the necessary packages mentioned in the respective script. 
+
+The folder structures shown here were not maintained during the project. These are shown here for better understanding about the code. After cloning the repo, please paste all the files in a common folder.
+

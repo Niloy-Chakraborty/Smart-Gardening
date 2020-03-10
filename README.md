@@ -48,10 +48,10 @@ Please see the detailed report from [here](https://www.researchgate.net/publicat
 **cnn.py**- This script is used for training a CNN-based Machine Learning Model and the model can be saved as .h5 file
 PlantIdentification.py - This script is used for predicting the plant name and health status using the deployed ML model. The model can be downloaded from [here](https://drive.google.com/open?id=1stVThnVNt8yhOze6h0iQPJXKuZLaV2cC)
 
-
+-----------------------------------------------
 #### PLEASE NOTE:
 
-Install all the necessary packages mentioned in the respective script. 
+1. Install all the necessary packages mentioned in the respective script. 
 
-The folder structures shown here were not maintained during the project. These are shown here for better understanding about the code. After cloning the repo, please paste all the files in a common folder.
+2. The folder structures shown here were not maintained during the project. These are shown here for better understanding about the code. After cloning the repo, please paste all the files in a common folder.
 

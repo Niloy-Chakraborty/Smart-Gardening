@@ -14,7 +14,7 @@
 ------------------------------------------------
 
 ### Paper:
-Please see the detailed report from [here](https://www.researchgate.net/publication/339412317_Smart_Gardening_A_solution_to_your_gardening_issues?_sg%5B0%5D=U_O-f1a3XHIaBI4_ER6dQGMTr_cj1cCMjCd1nszVCSeVTU9Igqs_LXNtbB3TDwtyX22HLEC1iXF3sA.ROHM8E4iQN2fdYqhWW9fkJAmQCORy_93BUaQDxEIxEF8O7CwbJcOcsemQ_TXd1-R-SKLEODkfLB3GCO7LK-t4Q&_sg%5B1%5D=kcJR-K5YcFrhiJzWfAnEB1FskrGex0z4zEKCbNQa3hAXdsC7PLdMyqSfdqbLgqN2vhV7tuBuAC4zXjf-bb0gBXKgc66ju9y8zdVAoLTlj4JFbRH-QGc) and cite the work for future use.
+Please see the detailed report from [here](https://publications.eai.eu/index.php/IoT/article/view/384) and cite the work for future use.
 
 ------------------------------------------------
 ### Guidelines:

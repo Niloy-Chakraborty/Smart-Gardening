@@ -1,5 +1,9 @@
 ## Smart-Gardening
 ### A Smart Solution to your Gardening Problems
+> N. Chakraborty, A. Mukherjee, and M. Bhadra, “Smart Gardening: A Solution to Your Gardening Issues”, EAI Endorsed Trans IoT, vol. 8, no. 30, p. e3, Aug. 2022.
+
+### Cite the work: 
+
 
 
 
